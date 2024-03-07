@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: monospace;
+}
+
+.pantalla{
+    max-width: 37.5rem;
+    margin: auto;
+    padding: 1rem;
+
+
+    
+}
+@media only screen and (max-width: 720px){
+    .pantalla{
+        max-width: 72rem;
+        padding: 1rem 2rem;
+        
+    }
+    
+}
+@media screen and (min-width: 1239px){
+    .pantalla{
+        max-width: 123rem;
+        padding: 1rem 2rem;
+        
+    }
+    
+}
+@media screen and (min-width:1239px) {
+    .per{
+        height: 20rem;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: (1fr 1fr 1fr);
+    }
+    .informacion{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding: 2rem 0px;
+    }
+    .info{
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .redes{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .imgp9{
+        grid-column: 2/3;
+        grid-row: 1/4;
+        padding: 2rem 0px;
+        margin: auto;
+    }
+
+    
+}
+@media screen and (min-width:1239px){
+    .fj{
+        height: 50rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr; 
+        margin-top: 10rem;
+    }
+    .p{
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-left:30px ;
+    }
+    .lista{
+        grid-column: 2/3;
+        grid-row: 3/4;
+            
+    }
+    
+    } 
+    @media screen and (min-width:1239px){
+       .imagenesp{
+        margin-left: 40px;
+       } 
+        
+    }
+
+
+.texto{
+    margin: auto;
+    margin-top: 1rem;
+    font-size: 1rem;
+  
+  }
+
+.titulo1{
+    border-radius: 2rem;
+    
+    background-color: gray;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto p{
+    padding: 2rem;
+    font-size: 1.3rem;
+    margin: auto;
+  
+  }
+  header{
+    width: 100%;
+    height: 6rem;
+   padding: 0rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header menu{
+font-size: 2.5rem;
+}
+
+.foto1 {
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+}
+.foto11{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+  
+  .imgp{
+    width: 30rem;
+    height: 30rem;
+    margin: 2rem;
+
+}
+
+.imgp1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about p{
+    padding: 2rem 0rem;
+}
+
+.inf h1{
+    font-size: 3rem;
+}
+
+.inf p{
+    padding: 20px;
+    font-size: 1.4rem;
+    color: rgb(32, 32, 56);
+
+}
+
+.info{
+    margin: 2rem 0rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+.redes{
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0rem;
+}
+.lista {
+    font-size: 10px;
+    gap: 5px;
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    column-count: 3;
+    color: rgb(23, 20, 72);
+}
+.p{
+    margin-left: 90px;
+}
+.imagenesp{
+    padding: 20px;
+    width: 100%;
+  gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(7,1fr);
+}
+.js{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.type{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.neon{
+width: 100%;
+grid-column: 3/-1;
+grid-row: 1/2;
+}
+.ne{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.no{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.ex{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row:2/3 ;
+}
+.net{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.sk{grid-row: 3/4;
+    width: 100%;
+    grid-column: 2/3;
+
+}
+.sq{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 3/4;
+}
+.mo{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.sa{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+.ta{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 4/5;
+}
+.fi{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.cy{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.st{
+    width: 100%;
+    grid-column: 3/-1;
+    grid-row: 5/6;
+}
+.g{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
